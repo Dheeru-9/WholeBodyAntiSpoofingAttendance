@@ -42,11 +42,11 @@ ATTENDANCE_DIR = "attendance_audit"
 ATTENDANCE_CSV = os.path.join(ATTENDANCE_DIR, "attendance_log.csv")
 
 # Path to your known faces folder (you provided earlier)
-KNOWN_FACES_DIR = r"C:\Users\adapa\Desktop\Internship2-Antforge\Complete_FaceRecognition\Kaggle-Faces1\Dataset\Faces"
+KNOWN_FACES_DIR = r"Face_Dataset_Location"
 
 # Firebase service account JSON (set to None to disable Firebase upload)
 # e.g. r"C:\path\to\serviceAccountKey.json"
-FIREBASE_SERVICE_ACCOUNT = r"C:\Users\adapa\Desktop\Internship2-Antforge\Complete_FaceRecognition\serviceAccountKey.json"  # <-- set path string to enable
+FIREBASE_SERVICE_ACCOUNT = r"servicejson_location"  # <-- set path string to enable
 
 # Thresholds
 FACE_MATCH_TOLERANCE = 0.5
@@ -466,3 +466,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

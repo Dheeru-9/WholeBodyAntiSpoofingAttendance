@@ -30,8 +30,8 @@ except Exception:
     TF_AVAILABLE = False
 
 # ------------------------- CONFIG -------------------------
-KNOWN_FACES_DIR = r"C:\Users\adapa\Desktop\Internship2-Antforge\Complete_FaceRecognition\Kaggle-Faces1\Dataset\Faces"
-FIREBASE_SERVICE_ACCOUNT = r"C:\Users\adapa\Desktop\Internship2-Antforge\Complete_FaceRecognition\whole-body-attendance-firebase-adminsdk-fbsvc-e2a5699fb8.json"
+KNOWN_FACES_DIR = r"Face_DataSet_Location"
+FIREBASE_SERVICE_ACCOUNT = r"servicejson_location"
 ANTI_SPOOF_MODEL_PATH = None  # set to path if using model
 
 FRAME_WIDTH, FRAME_HEIGHT, FPS = 640, 480, 20
@@ -358,3 +358,4 @@ def main():
 
 if __name__=="__main__":
     main()
+
